@@ -51,6 +51,7 @@ input:focus, textarea:focus, select:focus
    padding: 0px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
+   max-width: 1200px;
 }
 #LayoutGrid1 > .row
 {
@@ -149,44 +150,6 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    vertical-align: top;
 }
-#wb_Image2
-{
-   margin: 20px 0px 20px 0px;
-   vertical-align: top;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 253px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
-#wb_Image3
-{
-   margin: 20px 0px 20px 0px;
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 253px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
 #wb_Text1 
 {
    background-color: transparent;
@@ -208,17 +171,20 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    width: 100%;
 }
-#wb_Image4
+#wb_Image2
 {
    margin: 20px 0px 20px 0px;
    vertical-align: top;
 }
-#Image4
+#Image2
 {
-   border: 0px solid #000000;
-   border-radius: 0px;
+   border: 2px solid #1E90FF;
+   border-radius: 5px;
    box-sizing: border-box;
    padding: 0;
+   -webkit-animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.30);
    display: block;
    width: 100%;
    height: auto;
@@ -248,6 +214,28 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Image3
+{
+   margin: 20px 0px 20px 0px;
+   vertical-align: top;
+}
+#Image3
+{
+   border: 2px solid #1E90FF;
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 0;
+   -webkit-animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.30);
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 253px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
 #wb_Text3 
 {
    background-color: transparent;
@@ -269,6 +257,28 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Image4
+{
+   margin: 20px 0px 20px 0px;
+   vertical-align: top;
+}
+#Image4
+{
+   border: 2px solid #1E90FF;
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 0;
+   -webkit-animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.30);
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 253px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
 #wb_Text4 
 {
    background-color: transparent;
@@ -289,162 +299,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    box-sizing: border-box;
    width: 100%;
-}
-#wb_LayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0px 15px 0px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid2 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   float: left;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid2:before,
-#LayoutGrid2:after,
-#LayoutGrid2 .row:before,
-#LayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid2:after,
-#LayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#Shape1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape1
-{
-   margin: 20px 0px 20px 0px;
-}
-#Shape2
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape2
-{
-   margin: 20px 0px 20px 0px;
-}
-#Shape3
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape3
-{
-   margin: 20px 0px 20px 0px;
-}
-#Shape4
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape4
-{
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape1
-{
-   display: inline-block;
-   width: 107px;
-   height: 96px;
-   z-index: 8;
-   position: relative;
-}
-#wb_Shape2
-{
-   display: inline-block;
-   width: 107px;
-   height: 96px;
-   z-index: 9;
-   position: relative;
-}
-#wb_Shape3
-{
-   display: inline-block;
-   width: 107px;
-   height: 96px;
-   z-index: 10;
-   position: relative;
 }
 #wb_Image1
 {
@@ -474,34 +328,6 @@ input:focus, textarea:focus, select:focus
    height: auto;
    z-index: 6;
 }
-#Shape1
-{
-   width: 107px;
-   height: 96px;
-}
-#Shape2
-{
-   width: 107px;
-   height: 96px;
-}
-#Shape3
-{
-   width: 107px;
-   height: 96px;
-}
-#Shape4
-{
-   width: 107px;
-   height: 96px;
-}
-#wb_Shape4
-{
-   display: inline-block;
-   width: 107px;
-   height: 96px;
-   z-index: 11;
-   position: relative;
-}
 @media only screen and (min-width: 1024px)
 {
 body
@@ -518,73 +344,22 @@ body
    visibility: visible;
    display: inline;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
 #wb_Image1
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 20px 0px 20px 0px;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
    padding: 0;
 }
 #wb_Image2
@@ -595,6 +370,16 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Image3
 {
    width: 100%;
@@ -603,12 +388,12 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text1
+#wb_Text3
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text3
 {
    margin: 0;
    padding: 0;
@@ -621,26 +406,6 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text4
 {
    visibility: visible;
@@ -650,91 +415,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Shape1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape2
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape3
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape4
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
 }
 }
 @media only screen and (min-width: 900px) and (max-width: 1023px)
@@ -753,73 +433,22 @@ body
    visibility: visible;
    display: inline;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
 #wb_Image1
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 20px 0px 20px 0px;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
    padding: 0;
 }
 #wb_Image2
@@ -830,6 +459,16 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Image3
 {
    width: 100%;
@@ -838,12 +477,12 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text1
+#wb_Text3
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text3
 {
    margin: 0;
    padding: 0;
@@ -856,26 +495,6 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text4
 {
    visibility: visible;
@@ -885,91 +504,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Shape1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape2
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape3
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape4
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px)
@@ -988,73 +522,22 @@ body
    visibility: visible;
    display: inline;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
 #wb_Image1
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 20px 0px 20px 0px;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
    padding: 0;
 }
 #wb_Image2
@@ -1065,6 +548,16 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Image3
 {
    width: 100%;
@@ -1073,12 +566,12 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text1
+#wb_Text3
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text3
 {
    margin: 0;
    padding: 0;
@@ -1091,26 +584,6 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text4
 {
    visibility: visible;
@@ -1120,91 +593,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Shape1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape2
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape3
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape4
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
 }
 }
 @media only screen and (min-width: 700px) and (max-width: 767px)
@@ -1223,73 +611,22 @@ body
    visibility: visible;
    display: inline;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
 #wb_Image1
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 20px 0px 20px 0px;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
    padding: 0;
 }
 #wb_Image2
@@ -1300,6 +637,16 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Image3
 {
    width: 100%;
@@ -1308,12 +655,12 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text1
+#wb_Text3
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text3
 {
    margin: 0;
    padding: 0;
@@ -1326,26 +673,6 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text4
 {
    visibility: visible;
@@ -1355,91 +682,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_Shape1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape2
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape3
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape4
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
 }
 }
 @media only screen and (min-width: 480px) and (max-width: 699px)
@@ -1458,73 +700,22 @@ body
    visibility: visible;
    display: inline;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
 #wb_Image1
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 20px 0px 20px 0px;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
    padding: 0;
 }
 #wb_Image2
@@ -1535,6 +726,16 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Image3
 {
    width: 100%;
@@ -1543,12 +744,12 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text1
+#wb_Text3
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text3
 {
    margin: 0;
    padding: 0;
@@ -1561,26 +762,6 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text4
 {
    visibility: visible;
@@ -1590,91 +771,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Shape1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape2
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape3
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape4
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
 }
 }
 @media only screen and (max-width: 479px)
@@ -1693,73 +789,22 @@ body
    visibility: visible;
    display: inline;
 }
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
 #wb_Image1
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 20px 0px 20px 0px;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
    padding: 0;
 }
 #wb_Image2
@@ -1770,6 +815,16 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Image3
 {
    width: 100%;
@@ -1778,12 +833,12 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text1
+#wb_Text3
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text3
 {
    margin: 0;
    padding: 0;
@@ -1796,26 +851,6 @@ body
    margin: 20px 0px 20px 0px;
    padding: 0;
 }
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Text4
 {
    visibility: visible;
@@ -1825,90 +860,5 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid2 > .row > .col-4
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Shape1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape2
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape3
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
-}
-#wb_Shape4
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 20px 0px 20px 0px;
 }
 }
