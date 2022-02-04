@@ -7,6 +7,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="wys1.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="slimbox/css/slimbox2.css">
+<script src="slimbox/js/slimbox2.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[data-rel='lightbox-slimbox']").attr('rel', 'lightbox-slimbox');
+   $("a[data-rel^='lightbox-slimbox']").slimbox({overlayOpacity: 0.8}, null, function(el){return (this == el)||((this.rel.length > 8)&&(this.rel == el.rel));});
+});
+</script>
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
@@ -15,7 +25,7 @@
 <div class="row">
 <div class="col-1">
 <div id="wb_Image1">
-<img src="images/Flower 2011.jpg" id="Image1" alt="" width="212" height="170">
+<a href="images/Flower 2011.jpg" data-rel="lightbox-slimbox" target="_self"><img src="images/Flower 2011.jpg" id="Image1" alt="" width="208" height="166"></a>
 </div>
 <div id="wb_Text1">
 <h3>Double click 1</h3>
@@ -35,6 +45,40 @@
 </div>
 <div id="wb_Text3">
 <h3>Double click 3</h3>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Image4">
+<img src="images/Flower 2011.jpg" id="Image4" alt="" width="212" height="170">
+</div>
+<div id="wb_Text4">
+<h3>Double click 4</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Shape1">
+<img src="images/img0001.png" id="Shape1" alt="" width="107" height="96">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Shape2">
+<img src="images/img0002.png" id="Shape2" alt="" width="107" height="96">
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Shape3">
+<img src="images/img0003.png" id="Shape3" alt="" width="107" height="96">
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Shape4">
+<img src="images/img0004.png" id="Shape4" alt="" width="107" height="96">
 </div>
 </div>
 </div>
