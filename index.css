@@ -36,41 +36,55 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#SlideShow1
+#PhotoGallery1
 {
-   display: flex;
-   height: 421px;
-   border: 0px solid #000000;
-}
-#SlideShow1 .accordion-panel
-{
-   transition-property: all;
-   transition-duration: 800ms;
-   transition-timing-function: linear;
-   transition-delay: 0s;
-   width: 20%;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
    height: 100%;
+   table-layout: fixed;
+   display: table;
+   margin: 0;
+}
+#PhotoGallery1 .thumbnails
+{
+   margin: 0;
+}
+#PhotoGallery1 .thumbnail
+{
    position: relative;
-   overflow: hidden;
-   cursor: pointer;
-   visibility: visible;
+   min-height: 1px;
+   box-sizing: border-box;
+   float: left;
+   padding: 3px 3px 3px 3px;
+   width: 33.33333333%;
+   text-align: center;
+   vertical-align: top;
 }
-#SlideShow1 .accordion-panel img
+#PhotoGallery1 .thumbnail img
 {
-   border-width: 0;
-   position: absolute;
-   top: 50%;
-   left: 50%;
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
    height: auto;
-   width: auto;
-   min-width: 100%;
-   min-height: 100%;
-   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-   z-index: 1;
+   max-width: 100%;
+   box-sizing: border-box;
+   border-radius: 0px;
 }
-#SlideShow1:hover .accordion-panel:hover 
+#PhotoGallery1 .clearfix:before,
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:before,
+#PhotoGallery1 .thumbnails:after
 {
-   flex-shrink: 0;
-   width: 80%;
+   display: table;
+   content: " ";
+}
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery1 .visible-col3
+{
+   display: block;
 }
