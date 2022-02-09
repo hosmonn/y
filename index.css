@@ -525,6 +525,13 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
+#wb_Text2
+{
+   color: #FFFFFF;
+   font-family: Calibri;
+   font-weight: normal;
+   font-size: 24px;
+}
 #wb_Text2 div
 {
    text-align: center;
@@ -1433,8 +1440,12 @@ body
 }
 #wb_Text2
 {
+   font-family: Calibri;
+   font-weight: normal;
+   font-size: 24px;
    margin: 0;
    padding: 10px 0px 15px 0px;
+   text-align: center;
 }
 #wb_LayoutGrid3
 {
@@ -1901,8 +1912,12 @@ body
 }
 #wb_Text2
 {
+   font-family: Calibri;
+   font-weight: normal;
+   font-size: 24px;
    margin: 0;
    padding: 10px 0px 15px 0px;
+   text-align: center;
 }
 #wb_LayoutGrid3
 {
@@ -2370,8 +2385,12 @@ body
 }
 #wb_Text2
 {
+   font-family: Calibri;
+   font-weight: normal;
+   font-size: 24px;
    margin: 0;
    padding: 10px 0px 15px 0px;
+   text-align: center;
 }
 #wb_LayoutGrid3
 {
@@ -2841,8 +2860,12 @@ body
 }
 #wb_Text2
 {
+   font-family: Calibri;
+   font-weight: normal;
+   font-size: 24px;
    margin: 0;
    padding: 10px 0px 15px 0px;
+   text-align: center;
 }
 #wb_LayoutGrid3
 {
