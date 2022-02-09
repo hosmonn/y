@@ -530,7 +530,7 @@ input:focus, textarea:focus, select:focus
    color: #FFFFFF;
    font-family: Calibri;
    font-weight: normal;
-   font-size: 24px;
+   font-size: 29px;
 }
 #wb_Text2 div
 {
@@ -1442,7 +1442,7 @@ body
 {
    font-family: Calibri;
    font-weight: normal;
-   font-size: 24px;
+   font-size: 29px;
    margin: 0;
    padding: 10px 0px 15px 0px;
    text-align: center;
@@ -1914,7 +1914,7 @@ body
 {
    font-family: Calibri;
    font-weight: normal;
-   font-size: 24px;
+   font-size: 29px;
    margin: 0;
    padding: 10px 0px 15px 0px;
    text-align: center;
@@ -2387,7 +2387,7 @@ body
 {
    font-family: Calibri;
    font-weight: normal;
-   font-size: 24px;
+   font-size: 29px;
    margin: 0;
    padding: 10px 0px 15px 0px;
    text-align: center;
