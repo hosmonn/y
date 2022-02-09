@@ -8,9 +8,11 @@
 <link href="Flores_Alicante.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="wwb17.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $('#wb_reserva').addClass('visibility-hidden');
    $("#wb_ResponsiveMenu1 ul li a").click(function(event)
    {
       $("#wb_ResponsiveMenu1 input").prop("checked", false);
@@ -24,6 +26,30 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_reserva').offset().top }, 600, 'linear');
+   });
+   function onScrollreserva()
+   {
+      var $obj = $("#wb_reserva");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_reserva', 'transform-zoom-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_reserva', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_reserva').inViewPort(true))
+   {
+      $('#wb_reserva').addClass("in-viewport");
+   }
+   onScrollreserva();
+   $(window).scroll(function(event)
+   {
+      onScrollreserva();
    });
 });
 </script>

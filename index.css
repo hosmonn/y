@@ -36,6 +36,10 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+.visibility-hidden
+{
+   visibility: hidden;
+}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -445,7 +449,9 @@ input:focus, textarea:focus, select:focus
    background-size: cover;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
-   margin: 0;
+   margin: 0px 0px 50px 0px;
+   -webkit-animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-in-up 1000ms linear 0ms 1 normal both;
 }
 #LayoutGrid2
 {
@@ -1407,7 +1413,7 @@ body
 #wb_LayoutGrid2
 {
    margin-top: 0px;
-   margin-bottom: 0px;
+   margin-bottom: 50px;
 }
 #LayoutGrid2
 {
@@ -1879,7 +1885,7 @@ body
 #wb_LayoutGrid2
 {
    margin-top: 0px;
-   margin-bottom: 0px;
+   margin-bottom: 50px;
 }
 #LayoutGrid2
 {
@@ -2351,7 +2357,7 @@ body
 #wb_LayoutGrid2
 {
    margin-top: 0px;
-   margin-bottom: 0px;
+   margin-bottom: 50px;
 }
 #LayoutGrid2
 {
@@ -2826,7 +2832,7 @@ body
 #wb_LayoutGrid2
 {
    margin-top: 0px;
-   margin-bottom: 0px;
+   margin-bottom: 50px;
 }
 #LayoutGrid2
 {
