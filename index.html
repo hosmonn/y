@@ -8,6 +8,7 @@
 <link href="Flores_Alicante.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="wb.parallax.min.js"></script>
 <script src="wwb17.min.js"></script>
 <script>
 $(document).ready(function()
@@ -17,6 +18,7 @@ $(document).ready(function()
    {
       $("#wb_ResponsiveMenu1 input").prop("checked", false);
    });
+   $('#wb_LayoutGrid2').parallax();
    $("a[href*='#modelos']").click(function(event)
    {
       event.preventDefault();
@@ -51,6 +53,7 @@ $(document).ready(function()
    {
       onScrollreserva();
    });
+   $('#wb_reserva').parallax();
 });
 </script>
 </head>

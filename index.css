@@ -445,7 +445,8 @@ input:focus, textarea:focus, select:focus
    background-image: url('images/587952690_187632733_1706x960.jpg');
    background-repeat: repeat;
    background-position: center center;
-   background-attachment: scroll;
+   background-attachment: fixed;
+   background-position: 50% 0;
    background-size: cover;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -1103,7 +1104,8 @@ input:focus, textarea:focus, select:focus
    background-image: url('images/significado-color-flores.jpg');
    background-repeat: repeat;
    background-position: center center;
-   background-attachment: scroll;
+   background-attachment: fixed;
+   background-position: 50% 0;
    background-size: cover;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
