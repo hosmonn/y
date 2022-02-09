@@ -15,6 +15,16 @@ $(document).ready(function()
    {
       $("#wb_ResponsiveMenu1 input").prop("checked", false);
    });
+   $("a[href*='#modelos']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_modelos').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#reserva']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_reserva').offset().top }, 600, 'linear');
+   });
 });
 </script>
 </head>
@@ -32,8 +42,8 @@ $(document).ready(function()
 <input type="checkbox" id="ResponsiveMenu1-submenu">
 <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
 <li role="menuitem"><a href="./index.html" class="active">HOME</a></li>
-<li role="menuitem"><a href="">FLORES</a></li>
-<li role="menuitem"><a href="">RESERVAS</a></li>
+<li role="menuitem"><a href="#modelos">MODELOS</a></li>
+<li role="menuitem"><a href="#reserva">RESERVAS</a></li>
 <li role="menuitem"><a href="">ACCESORIOS</a></li>
 <li role="menuitem"><a href="">EVENTOS</a></li>
 <li role="menuitem"><a href="">CONTACTO</a></li>
@@ -54,8 +64,8 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid3">
-<div id="LayoutGrid3">
+<div id="wb_modelos">
+<div id="modelos">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text3">
@@ -132,9 +142,9 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid5">
-<div id="LayoutGrid5-overlay"></div>
-<div id="LayoutGrid5">
+<div id="wb_reserva">
+<div id="reserva-overlay"></div>
+<div id="reserva">
 <div class="col-1">
 <div id="wb_Text15">
 <span style="color:#FFFFFF;font-family:Calibri;font-size:29px;"><strong>RESERVA TUS<br></strong></span><span style="color:#FFA500;font-family:Calibri;font-size:29px;"><strong>FLORES</strong></span><span style="color:#FFFFFF;font-family:Calibri;font-size:29px;"><strong> HOY</strong></span>
