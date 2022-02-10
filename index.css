@@ -537,7 +537,7 @@ input:focus, textarea:focus, select:focus
    color: #FFFFFF;
    font-family: Calibri;
    font-weight: normal;
-   font-size: 29px;
+   font-size: 32px;
 }
 #wb_Text2 div
 {
@@ -794,27 +794,6 @@ input:focus, textarea:focus, select:focus
    text-align: left;
 }
 #wb_Text7
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 0px 10px 0px;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text8 div
-{
-   text-align: left;
-}
-#wb_Text8
 {
    display: block;
    margin: 0;
@@ -1294,6 +1273,27 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text8
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_Image1
 {
    display: inline-block;
@@ -1451,7 +1451,7 @@ body
 {
    font-family: Calibri;
    font-weight: normal;
-   font-size: 29px;
+   font-size: 32px;
    margin: 0;
    padding: 10px 0px 15px 0px;
    text-align: center;
@@ -1574,16 +1574,6 @@ body
    display: block;
 }
 #wb_Text7
-{
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text8
 {
    margin: 0;
    padding: 10px 0px 10px 0px;
@@ -1812,6 +1802,16 @@ body
 {
    margin: 0;
    padding: 10px 0px 15px 0px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px)
@@ -1923,7 +1923,7 @@ body
 {
    font-family: Calibri;
    font-weight: normal;
-   font-size: 29px;
+   font-size: 32px;
    margin: 0;
    padding: 10px 0px 15px 0px;
    text-align: center;
@@ -2046,16 +2046,6 @@ body
    display: block;
 }
 #wb_Text7
-{
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text8
 {
    margin: 0;
    padding: 10px 0px 10px 0px;
@@ -2284,6 +2274,16 @@ body
 {
    margin: 0;
    padding: 10px 0px 15px 0px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
 }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px)
@@ -2396,7 +2396,7 @@ body
 {
    font-family: Calibri;
    font-weight: normal;
-   font-size: 29px;
+   font-size: 32px;
    margin: 0;
    padding: 10px 0px 15px 0px;
    text-align: center;
@@ -2519,16 +2519,6 @@ body
    display: block;
 }
 #wb_Text7
-{
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text8
 {
    margin: 0;
    padding: 10px 0px 10px 0px;
@@ -2759,6 +2749,16 @@ body
 {
    margin: 0;
    padding: 10px 0px 15px 0px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
 }
 }
 @media only screen and (max-width: 479px)
@@ -2998,16 +2998,6 @@ body
    margin: 0;
    padding: 10px 0px 10px 0px;
 }
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text8
-{
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
 #wb_LayoutGrid4
 {
    visibility: visible;
@@ -3234,5 +3224,15 @@ body
 {
    margin: 0;
    padding: 10px 0px 15px 0px;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
 }
 }
