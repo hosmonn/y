@@ -194,7 +194,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
 {
-   background-color: #9370DB;
+   background-color: #FF0000;
    color: #FFFFFF;
 }
 #wb_ResponsiveMenu1 ul ul
@@ -324,7 +324,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 .toggle:hover 
 {
-   background-color: #9370DB;
+   background-color: #FF0000;
    color: #FFFFFF;
 }
 [id^=ResponsiveMenu1-submenu]:checked + ul 
@@ -794,6 +794,12 @@ input:focus, textarea:focus, select:focus
 #wb_Text7 div
 {
    text-align: left;
+}
+#wb_Text7:hover
+{
+   background-color: #D3D3D3;
+   -webkit-transition: background-color 500ms linear 0ms;
+   transition: background-color 500ms linear 0ms;
 }
 #wb_Text7
 {
@@ -1648,4 +1654,20 @@ input:focus, textarea:focus, select:focus
    position: fixed !important;
    left: 50% !important;
    margin-left: -600px;
+}
+#Button1
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
 }
