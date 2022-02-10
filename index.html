@@ -5,10 +5,14 @@
 <title>Flores Alicante</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
 <link href="Flores_Alicante.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
+<script src="util.min.js"></script>
+<script src="scrollspy.min.js"></script>
 <script src="wb.parallax.min.js"></script>
+<script src="affix.min.js"></script>
 <script src="wwb17.min.js"></script>
 <script>
 $(document).ready(function()
@@ -53,10 +57,104 @@ $(document).ready(function()
    {
       onScrollreserva();
    });
+   $("#wb_ResponsiveMenu2").affix({offset:{top: $("#wb_ResponsiveMenu2").offset().top}});
 });
 </script>
 </head>
-<body>
+<body data-spy="scroll">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:473px;top:2600px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_ResponsiveMenu2" style="position:absolute;left:0px;top:474px;width:1200px;height:69px;z-index:26;">
+<label class="toggle" for="ResponsiveMenu2-submenu" id="ResponsiveMenu2-title">Menu<span id="ResponsiveMenu2-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu2-submenu">
+<ul class="ResponsiveMenu2" id="ResponsiveMenu2" role="menu">
+<li role="menuitem"><a href="./index.html" class="active"><i class="fa fa-home fa-2x">&nbsp;</i><br>Home</a></li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-0" class="toggle"><i class="fa fa-book fa-2x">&nbsp;</i>Blog<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-book fa-2x">&nbsp;</i><br>Blog<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-0">
+<ul role="menu">
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-1" class="toggle"><i class="fa fa-eye fa-2x">&nbsp;</i>Design<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-eye fa-2x">&nbsp;</i>Design<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-1">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-2" class="toggle"><i class="fa fa-html5 fa-2x">&nbsp;</i>HTML<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-html5 fa-2x">&nbsp;</i>HTML<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-2">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-3" class="toggle"><i class="fa fa-css3 fa-2x">&nbsp;</i>CSS<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-css3 fa-2x">&nbsp;</i>CSS<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-3">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-4" class="toggle"><i class="fa fa-code fa-2x">&nbsp;</i>JavaScript<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-code fa-2x">&nbsp;</i>JavaScript<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-4">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-5" class="toggle"><i class="fa fa-gear fa-2x">&nbsp;</i>Work<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-gear fa-2x">&nbsp;</i><br>Work<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-5">
+<ul role="menu">
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-6" class="toggle"><i class="fa fa-desktop fa-2x">&nbsp;</i>Web&nbsp;Design<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-desktop fa-2x">&nbsp;</i>Web&nbsp;Design<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-6">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-7" class="toggle"><i class="fa fa-picture-o fa-2x">&nbsp;</i>Typography<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-picture-o fa-2x">&nbsp;</i>Typography<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-7">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu2-submenu-8" class="toggle"><i class="fa fa-envelope fa-2x">&nbsp;</i>Applications<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-envelope fa-2x">&nbsp;</i>Applications<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu2-submenu-8">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li role="menuitem"><a href=""><i class="fa fa-user fa-2x">&nbsp;</i><br>About</a></li>
+</ul>
+</div>
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
 <div class="row">
@@ -67,13 +165,13 @@ $(document).ready(function()
 <div id="wb_ResponsiveMenu1" style="display:inline-block;width:100%;z-index:1;">
 <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
 <input type="checkbox" id="ResponsiveMenu1-submenu">
-<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
-<li role="menuitem"><a href="./index.html" class="active">HOME</a></li>
-<li role="menuitem"><a href="#modelos">MODELOS</a></li>
-<li role="menuitem"><a href="#reserva">RESERVAS</a></li>
-<li role="menuitem"><a href="">ACCESORIOS</a></li>
-<li role="menuitem"><a href="">EVENTOS</a></li>
-<li role="menuitem"><a href="">CONTACTO</a></li>
+<ul class="nav ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li class="nav" role="menuitem"><a href="./index.html" class="active">HOME</a></li>
+<li class="nav" role="menuitem"><a href="#modelos" class="nav-link">MODELOS</a></li>
+<li class="nav" role="menuitem"><a href="#reserva" class="nav-link">RESERVAS</a></li>
+<li class="nav" role="menuitem"><a href="" class="nav-link">ACCESORIOS</a></li>
+<li class="nav" role="menuitem"><a href="" class="nav-link">EVENTOS</a></li>
+<li class="nav" role="menuitem"><a href="" class="nav-link">CONTACTO</a></li>
 </ul>
 
 </div>
