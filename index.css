@@ -100,7 +100,44 @@ body
    margin: 0;
 }
 }
-@media only screen and (max-width: 479px)
+@media only screen and (min-width: 400px) and (max-width: 479px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer2
+{
+   left: 20px;
+   top: 22px;
+   width: 362px;
+   height: 220px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_MediaPlayer1
+{
+   left: 20px;
+   top: 259px;
+   width: 362px;
+   height: 220px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+}
+@media only screen and (max-width: 399px)
 {
 body
 {
