@@ -28,6 +28,13 @@ $(document).ready(function()
          type: 'inline',
          src: '<div style="position:relative;max-width:640px;margin:20px auto;"><embed src="" id="MediaPlayer2" autostart="true" loop="false"></div>'}
    });
+   $('#MediaPlayer1').magnificPopup(
+   {
+      closeBtnInside: false,
+      items: {
+         type: 'inline',
+         src: '<div style="position:relative;max-width:640px;margin:20px auto;"><embed src="" id="MediaPlayer1" autostart="true" loop="false"></div>'}
+   });
 });
 </script>
 </head>
@@ -37,31 +44,7 @@ $(document).ready(function()
 <a id="MediaPlayer2" title="" href="#"><img src="images/Flower 2039.jpg" width="640" height="512" alt=""></a>
 </div>
 <div id="wb_MediaPlayer1">
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8 />
-<title>MANOTO</title>
-  
-
-  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-  <script src="https://unpkg.com/video.js/dist/video.js"></script>
-  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
-   
-</head>
-<body>
-  <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
-  data-setup='{}'>
-    <source src="https://d2rwmwucnr0d10.cloudfront.net/live_750.m3u8" type="application/x-mpegURL">
-  </video>
-  
-<script>
-var player = videojs('my_video_1');
-player.play();
-</script>
-  
-</body>
-</html><embed src="" id="MediaPlayer1" autostart="true" loop="false">
+<a id="MediaPlayer1" title="" href="#"><img src="images/Flower 2028.jpg" width="640" height="512" alt=""></a>
 </div>
 </body>
 </html>
