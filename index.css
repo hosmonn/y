@@ -89,6 +89,16 @@ body
    display: inline;
    margin: 0;
 }
+#wb_MediaPlayer1
+{
+   left: 50px;
+   top: 293px;
+   width: 380px;
+   height: 238px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
 }
 @media only screen and (min-width: 400px) and (max-width: 479px)
 {
@@ -110,6 +120,16 @@ body
 {
    left: 20px;
    top: 22px;
+   width: 362px;
+   height: 220px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_MediaPlayer1
+{
+   left: 20px;
+   top: 258px;
    width: 362px;
    height: 220px;
    visibility: visible;
@@ -139,6 +159,16 @@ body
    top: 22px;
    width: 295px;
    height: 153px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_MediaPlayer1
+{
+   left: 13px;
+   top: 203px;
+   width: 297px;
+   height: 155px;
    visibility: visible;
    display: inline;
    margin: 0;
