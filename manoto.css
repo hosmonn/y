@@ -1,3 +1,10 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
 body
 {
    background-color: #FFFFFF;
@@ -7,7 +14,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -92,6 +99,10 @@ input:focus, textarea:focus, select:focus
 }
 @media only screen and (max-width: 969px)
 {
+div#container
+{
+   width: 320px;
+}
 body
 {
    background-color: #FFFFFF;
