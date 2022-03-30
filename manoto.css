@@ -52,3 +52,63 @@ input:focus, textarea:focus, select:focus
 {
    text-align: center;
 }
+#wb_Text1
+{
+   position: absolute;
+   left: 235px;
+   top: 34px;
+   width: 501px;
+   height: 36px;
+   text-align: center;
+   z-index: 2;
+}
+#wb_MediaPlayer1
+{
+   position: absolute;
+   left: 81px;
+   top: 102px;
+   width: 809px;
+   height: 481px;
+   z-index: 1;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_MediaPlayer1
+{
+   left: 14px;
+   top: 105px;
+   width: 292px;
+   height: 173px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Text1
+{
+   left: 0px;
+   top: 46px;
+   width: 320px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+}
